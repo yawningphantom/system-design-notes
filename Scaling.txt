@@ -1,0 +1,6 @@
+Vertical Scaling vs Horizontal Scaling
+1. Load balacing Required                              | Load Balancing not Required.
+2. Resilient - If one fails then also others will work | Not Resilient - Single point of failure.
+3. Slow - uses network calls, hence slower             | Fast - Inter process communication.
+4. Data Inconsistent issue                             | Data Consistent
+5. Scales well as user increase                        | Hardware Limit.
